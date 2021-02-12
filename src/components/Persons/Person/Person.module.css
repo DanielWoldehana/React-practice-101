@@ -1,0 +1,22 @@
+.Person {
+    width: 60%;
+    margin: 16px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 3 px #ccc;
+    padding: 16px;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .Person {
+        width: 450px;
+    }
+}
+
+    .Person Button {
+        border: 1px solid #ccc;
+        padding: 8px;
+        margin: 10px auto;
+        width: 30%;
+        word-wrap: break-word;
+    }
